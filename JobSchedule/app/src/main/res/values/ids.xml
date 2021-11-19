@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="networkOptions" type="id" />
+    <item name="noNetwork" type="id" />
+    <item name="anyNetwork" type="id" />
+    <item name="wifiNetwork" type="id" />
+    <item name="scheduleJobButton" type="id" />
+    <item name="cancelJobButton" type="id" />
+</resources>

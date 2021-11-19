@@ -1,0 +1,4 @@
+#Tue Sep 14 20:52:23 ICT 2021
+base.0=C\:\\Users\\abdul\\AndroidStudioProjects\\NavDrawerExperiment\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

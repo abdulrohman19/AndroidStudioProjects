@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:foreground="@drawable/gedungpasca"
+        app:srcCompat="@android:drawable/screen_background_dark" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="154dp"
+        android:layout_height="100dp"
+        android:layout_margin="50dp"
+        android:layout_marginTop="32dp"
+        android:text="PROFIL PROGRAM DOKTOR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Wujudnya universitas yang berarti dan bermutu serta menjadi sumber ilmu pengetahuan  agama dan “umum” adalah cita-cita dan gagasan para pendiri PMDG sejak mereka mendirikan tingkat menengah yaitu Kulliyatul Muallimin al-Islamiyah (KMI) 1936  yang kemudian tertuang secara resmi dalam deklarasi Penyerahan Wakaf tahun 1958. Maka dari itu di tingkat menengah waktu itu sudah dilakukan integrasi “ilmu umum” dan ilmu agama. Namun, di tingkat Perguruan Tinggi Darussalam (PTD) yang berdiri tahun 1963, ide itu belum dapat dikembangkan karena keterbatasan SDM dan terbatasnya fakultas dan program studi yang baru terdiri dari Ushuluddin, Tarbiyah dan Syariah. Padahal, gagasan dan ide integrasi di dunia Islam telah berkembang lebih jauh dari apa yang selama ini dipraktekkan (KMI). Gagasan integrasi ilmu seperti yang dipraktekkan di Aligarh Muslim University di India, telah berkembang menjadi ide Islamisasi Ilmu Pengetahuan Kontemporer yang dicetuskan oleh Prof. Dr. Syed Muhammad Naquib al-Attas pada Konferensi Pendidikan Islam Pertama di Makkah tahun 1977. Ide ini diikuti oleh berdirinya universitas Islam Internasional di Islamabad (1981), Malaysia (1983), ISTAC di Kuala Lumpur (1987)  dan sebagainya. Institute Studi Islam Darussalam (ISID) sejak tahun 1993 telah menjalin hubungan dengan kedua universitas internasional diatas dan mengutus kader-kadernya untuk mendalami ide dan gagasan Islamisasi tersebut." />
+
+</FrameLayout>

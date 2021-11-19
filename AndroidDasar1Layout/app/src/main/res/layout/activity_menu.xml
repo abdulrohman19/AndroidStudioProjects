@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_scrool"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:text="@string/jadwal"
+            android:textSize="30sp"
+            app:backgroundTint="#3F51B5"
+            app:icon="@drawable/timetable2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_linear"
+                style="@style/Pengenbiru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="Ujian MPA"
+                android:textSize="24sp"
+                app:backgroundTint="#3F51B5"
+                app:icon="@drawable/ujian" />
+
+            <Button
+                android:id="@+id/btn_relative"
+                style="@style/Pengenbiru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="Sarpras"
+                android:textSize="24sp"
+                app:backgroundTint="#3F51B5"
+                app:icon="@drawable/staff" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_frame"
+                style="@style/Pengenbiru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="Doktoral"
+                android:textSize="24sp"
+                app:backgroundTint="#3F51B5"
+                app:icon="@drawable/tambahan" />
+
+            <Button
+                android:id="@+id/btn_constrain"
+                style="@style/Pengenbiru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="Dema "
+                android:textSize="24sp"
+                app:backgroundTint="#3F51B5"
+                app:icon="@drawable/dema" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
